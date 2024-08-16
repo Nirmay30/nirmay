@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+     
+    <link rel="stylesheet" href="webstyle.css">
+
+    <title>Responsive website</title>
+ </head>
+<body>
+    <!--header design-->
+      <header class="header">
+        <a href="#" class="Logo">Portfolio</a>
+         
+        <i class="fa-solid fa-bars"id="menu icon"></i>
+        
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#skills">skills</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contact">contact</a>
+        </nav>
+      </header>
+       
+      <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi,My Self</h3>
+            <h1>Nirmay Dolariya</h1>
+            <h3>And I am a <span>Web Devloper</span></h3>
+            <P>I am a Frontend web Devloper and I am passionate about creating interactive applications and experiences on the Web</P>
+            <div class="social-media">
+                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="d:\CODSOFT-main\ND.pdf"  download id="downloadCv" class="btn">Download cv</a>
+        </div>
+         <div class="home-img">
+          <img src="IMG_3766.jpg"alt="" height="850px" width="420px">  
+         </div>    
+      </section>
+      <!--about section design-->
+      <section class="about" id="about">
+        <div class="about img">
+           <img src="IMG_3766.jpg"alt="" height="500px" width="420px">  
+        </div>
+        
+        <div class="about-text">
+          <h2 >ABOUT<span>ME</span></h2>
+          <h4>Frontend Devloper</h4>
+          <p>I am a Frontend Web Devloper.My expertise lies in HTML, CSS, and JavaScript.I am a programmer With Good knowledge of Front-end techniques. I spending time on fixing little details and optimizing web apps. My projects demonstrate my ability to transform complex problems into intuitive and visually appealing solutions. </p>
+          
+          <a href="#" class="btn-box">Read more</a>
+          
+        </div>
+      </section>
+       
+      <!--skill section design-->
+     
+      <section>
+        <div class="container1" id="skills">
+          <h1 class="heading1">Technical skills</h1>
+          <div class="Technical-bars">
+            <div class="bar"><i style="color: #c95d28;" class="fa-brands fa-html5"></i>
+              <div class="info">
+                <span>HTML</span>
+              </div>
+              <div class="progress-line html">
+                <span></span>
+              </div>
+            </div>
+             
+            <div class="bar"> <i style="color: #00eeff;"class="fa-brands fa-css3-alt"></i>
+              <div class="info">
+                <span>css</span>
+              </div>
+              <div class="progress-line css">
+                <span></span>
+              </div>
+            </div>
+            
+            <div class="bar"><i style="color: #b0bc1e;" class="fa-brands fa-js"></i>
+              <div class="info">
+                <span>javascript</span>
+              </div>
+              <div class="progress-line javascript">
+                <span></span>
+              </div>
+            </div>
+            
+            <div class="bar"><i style="color:grey;"class="fa-brands fa-java"></i>
+              <div class="info">
+                <span>java</span>
+              </div>
+              <div class="progress-line java">
+                <span></span>
+              </div>
+            </div>
+            
+            <div class="bar"><i class="fa-solid fa-c"></i>
+              <div class="info">
+                <span>C Language</span>
+
+                
+              </div>
+              <div class="progress-line Rectjs">
+                
+                <span>Rectjs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+              
+        </div>
+      </section>
+
+<!--portfolio section--> 
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading"> Latest <span>   Projects </span></h2>
+                             
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="project 3.png"alt="" height="300px" width="300px">
+        <div class="portfolio layer">
+          <h4>Web Design</h4>
+          <p>crate calculator using Html-css & javascript</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+      
+      <div class="portfolio-box">
+        <img src="project 2.png"alt="" height="300px" width="420px"> 
+        <div class="portfolio layer">
+          <h4>Web Design</h4>
+          <p>create android application in android studio</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+      
+      <div class="portfolio-box">
+        <img src="project1.JPG"alt="" height="300px" width="300px">
+        <div class="portfolio layer">
+          <h4>Web Design</h4>
+          <p>create landing page website using Html-css</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+       
+      <div class="portfolio-box">
+        <img src="OIP.JPEG"alt="" height="300px" width="300px">
+        <div class="portfolio layer">
+          <h4>Web Design</h4>
+          <p>Create E-commarce webpage using Html-css</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="project 5.jpg"alt="" height="300px" width="300px">
+        <div class="portfolio layer">
+          <h4>Web Design</h4>
+          <p>create spotify webclone using Html-css</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+    
+      <div class="portfolio-box">
+        <img src="project 6.jpeg"alt="" height="300px" width="300px">
+        <div class="portfolio layer">
+          <h4>Web Design</h4>
+          <p>create Java project</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div> 
+      </div>
+<!--contact-section-->                     
+
+</div>
+<section class="contact" id="contact">
+ <h2 class="heading">Contact<span>Me</span></h2>
+
+ <form action="#">
+   <div class="input-box">
+     <input type="text"placeholder="Full Name">
+     <input type="email"placeholder="Email Address">
+   </div>     
+          
+ <div class="input-box">
+   <input type="number"placeholder="Mobile Number">
+   <input type="text"placeholder="Email subject">
+ </div>
+ <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+ <input type="submit" value="send Message" class="btn">
+ 
+ </form>
+</section>
+  </section>
+  <!--footer section-->
+
+<footer class="footer">
+  <div class="footer-text">
+      <P>Copyright &copy;2024</P>
+  </div>
+  <div class="footer-Icontop"></div>
+  <a href="home"><i class="fa-solid fa-angle-up"></i></a>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script src="web.js"></script>
+
+</body>
+</html>
